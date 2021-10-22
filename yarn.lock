@@ -4805,6 +4805,11 @@ chownr@^2.0.0:
   resolved "https://registry.nlark.com/chownr/download/chownr-2.0.0.tgz#15bfbe53d2eab4cf70f18a8cd68ebe5b3cb1dece"
   integrity sha1-Fb++U9LqtM9w8YqM1o6+Wzyx3s4=
 
+chromatic@^6.0.4:
+  version "6.0.4"
+  resolved "https://registry.npmmirror.com/chromatic/download/chromatic-6.0.4.tgz#c666004d25f14208c94ef5afb048ae3f2e9adb04"
+  integrity sha1-xmYATSXxQgjJTvWvsEiuPy6a2wQ=
+
 chrome-trace-event@^1.0.2:
   version "1.0.3"
   resolved "https://registry.nlark.com/chrome-trace-event/download/chrome-trace-event-1.0.3.tgz#1015eced4741e15d06664a957dbbf50d041e26ac"
