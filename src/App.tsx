@@ -1,7 +1,6 @@
 import React, { useState } from 'react'
 import Modal, { ModalProps } from './components/Modal/Modal'
 import { toast } from './components/Toast/ToastManager'
-import './styles/index.scss'
 
 // display a toast message when the page loads
 // you can call toast.destroy('my-id') from anywhere to remove this message manually with code

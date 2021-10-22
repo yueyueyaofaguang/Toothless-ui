@@ -14,27 +14,27 @@
   .modal {
     display: flex;
     flex-direction: column;
-    width: 300px;
-    height: 200px;
+    width: pxToRem(300px);
+    height: pxToRem(200px);
     background-color: $white;
-    border-radius: 10px;
+    border-radius: pxToRem(10px);
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
 
     .header {
       display: flex;
       justify-content: space-between;
-      padding: 8px 12px;
-      border-bottom: 1px solid $gray-200;
+      padding: pxToRem(8px) pxToRem(12px);
+      border-bottom: pxToRem(1px) solid $gray-200;
     }
     .main {
       flex: 1;
-      padding: 12px;
-      border-bottom: 1px solid $gray-200;
+      padding: pxToRem(12px);
+      border-bottom: pxToRem(1px) solid $gray-200;
     }
     .footer {
       display: flex;
       justify-content: space-around;
-      padding: 12px 0;
+      padding: pxToRem(12px) 0;
     }
   }
 }

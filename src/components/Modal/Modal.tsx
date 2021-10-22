@@ -1,5 +1,6 @@
 import classNames from 'classnames'
 import React, { ReactNode } from 'react'
+import Button from '../Button/Button'
 
 export interface ModalProps {
   visible: Boolean
@@ -31,16 +32,27 @@ const Modal: React.FC<ModalProps> = props => {
         </div>
         <div className="main">{props.children}</div>
         <div className="footer">
-          <button data-testid="cancel" onClick={handleClose}>
+          <Button data-testid="cancel" onClick={handleClose}>
             Return
-          </button>
-          <button data-testid="confirm" onClick={handleSubmit}>
+          </Button>
+          <Button data-testid="confirm" onClick={handleSubmit}>
             Submit
-          </button>
+          </Button>
         </div>
       </div>
     </div>
   )
+}
+
+Modal.defaultProps = {
+  visible: true,
+  title: '这是一个标题',
+  onCancel: () => {
+    console.log('cancel')
+  },
+  onConfirm: () => {
+    console.log('confirm')
+  },
 }
 
 export default Modal

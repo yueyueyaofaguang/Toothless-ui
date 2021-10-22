@@ -2,10 +2,14 @@
 @import 'variables';
 //layout
 @import 'reboot';
+
+@import '~sass-reset';
 //mixin
 @import 'mixin';
 
 @import 'animation'; //样式;
+
+@import '../components/Button/style';
 
 @import '../components/Toast/style';
 
